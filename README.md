@@ -21,7 +21,6 @@ Exercises in this section focus on building and analyzing a variety of network t
 For each topology, you will find:
 - A Packet Tracer simulation file (`.pkt`)
 - Visual snapshots of the configured network
-- Brief write-ups with important insights and outcomes
 
 ***
 
@@ -52,16 +51,21 @@ Repository Structure
 
 ```
 /
-├── Exercise-1_Peer_to_Peer/
-│   ├── simulation.pkt
-│   ├── setup.png
-│   └── notes.md
-├── Exercise-2_Mesh/
-│   ├── simulation.pkt
-│   ├── setup.png
-│   └── notes.md
-...
+├── bus topology.pkt
+├── star topology.pkt
+├── hybrid topology.pkt
+├── ring topology.pkt
+├── peer to peer communication.pkt
+├── mesh topology.pkt
+├── screenshots/
+│   ├── bus topology.png
+│   ├── star topology.png
+│   ├── hybrid topology.png
+│   ├── ring topology.png
+│   ├── peer to peer communication.png
+│   └── mesh topology.png
 └── README.md
+
 ```
 
 ***
